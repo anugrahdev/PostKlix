@@ -7,15 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255368D90E349950AFC06A31 /* Pods_PostKlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7C1B8136BEE1B6D62EF84B /* Pods_PostKlix.framework */; };
+		652A901228DB67A500501793 /* PostFormContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A900E28DB67A500501793 /* PostFormContract.swift */; };
+		652A901328DB67A500501793 /* PostFormPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A900F28DB67A500501793 /* PostFormPresenter.swift */; };
+		652A901428DB67A500501793 /* PostFormInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A901028DB67A500501793 /* PostFormInteractor.swift */; };
+		652A901528DB67A500501793 /* PostFormWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A901128DB67A500501793 /* PostFormWireframe.swift */; };
+		652A901928DB67BD00501793 /* PostFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A901728DB67BD00501793 /* PostFormViewController.swift */; };
+		652A901A28DB67BD00501793 /* PostFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652A901828DB67BD00501793 /* PostFormViewController.xib */; };
+		652A901D28DB70EF00501793 /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A901C28DB70EF00501793 /* PostRequest.swift */; };
+		6545162828DAF4D4004149F9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545162628DAF4D4004149F9 /* PostTableViewCell.swift */; };
+		6545162928DAF4D4004149F9 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6545162728DAF4D4004149F9 /* PostTableViewCell.xib */; };
 		6571FD5328DA0E88009B718B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD5228DA0E88009B718B /* AppDelegate.swift */; };
 		6571FD5528DA0E88009B718B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD5428DA0E88009B718B /* SceneDelegate.swift */; };
 		6571FD5728DA0E88009B718B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD5628DA0E88009B718B /* ViewController.swift */; };
 		6571FD5A28DA0E88009B718B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6571FD5828DA0E88009B718B /* Main.storyboard */; };
 		6571FD5C28DA0E8A009B718B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6571FD5B28DA0E8A009B718B /* Assets.xcassets */; };
 		6571FD5F28DA0E8A009B718B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6571FD5D28DA0E8A009B718B /* LaunchScreen.storyboard */; };
+		6571FD6C28DA1FBF009B718B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD6A28DA1FBF009B718B /* HomeViewController.swift */; };
+		6571FD6D28DA1FBF009B718B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6571FD6B28DA1FBF009B718B /* HomeViewController.xib */; };
+		6571FD7228DA1FE6009B718B /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD6E28DA1FE6009B718B /* HomeContract.swift */; };
+		6571FD7328DA1FE6009B718B /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD6F28DA1FE6009B718B /* HomePresenter.swift */; };
+		6571FD7428DA1FE6009B718B /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD7028DA1FE6009B718B /* HomeInteractor.swift */; };
+		6571FD7528DA1FE6009B718B /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD7128DA1FE6009B718B /* HomeWireframe.swift */; };
+		6571FD7928DA203E009B718B /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD7828DA203E009B718B /* Resolver.swift */; };
+		6571FD7B28DA2064009B718B /* ServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD7A28DA2064009B718B /* ServiceBase.swift */; };
+		6571FD7D28DA207E009B718B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD7C28DA207E009B718B /* Router.swift */; };
+		6571FD7F28DA2091009B718B /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD7E28DA2091009B718B /* Module.swift */; };
+		6571FD8128DA2209009B718B /* BaseContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571FD8028DA2209009B718B /* BaseContract.swift */; };
+		65B987C728DC2A4E00C17A0F /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B987C628DC2A4E00C17A0F /* StringResource.swift */; };
+		65B987C928DC2A7D00C17A0F /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B987C828DC2A7D00C17A0F /* UITableView+Extension.swift */; };
+		65F1FA9028DB3CCF009C8AD0 /* RestApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1FA8F28DB3CCF009C8AD0 /* RestApiServices.swift */; };
+		65F1FA9328DB4CEE009C8AD0 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1FA9228DB4CEE009C8AD0 /* PostModel.swift */; };
+		65F1FA9728DB57FC009C8AD0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1FA9528DB57FC009C8AD0 /* DetailViewController.swift */; };
+		65F1FA9828DB57FC009C8AD0 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F1FA9628DB57FC009C8AD0 /* DetailViewController.xib */; };
+		65F1FA9D28DB5807009C8AD0 /* DetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1FA9928DB5807009C8AD0 /* DetailContract.swift */; };
+		65F1FA9E28DB5807009C8AD0 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1FA9A28DB5807009C8AD0 /* DetailPresenter.swift */; };
+		65F1FA9F28DB5807009C8AD0 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1FA9B28DB5807009C8AD0 /* DetailInteractor.swift */; };
+		65F1FAA028DB5807009C8AD0 /* DetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F1FA9C28DB5807009C8AD0 /* DetailWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B7C1B8136BEE1B6D62EF84B /* Pods_PostKlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostKlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		652A900E28DB67A500501793 /* PostFormContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFormContract.swift; sourceTree = "<group>"; };
+		652A900F28DB67A500501793 /* PostFormPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFormPresenter.swift; sourceTree = "<group>"; };
+		652A901028DB67A500501793 /* PostFormInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFormInteractor.swift; sourceTree = "<group>"; };
+		652A901128DB67A500501793 /* PostFormWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFormWireframe.swift; sourceTree = "<group>"; };
+		652A901728DB67BD00501793 /* PostFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFormViewController.swift; sourceTree = "<group>"; };
+		652A901828DB67BD00501793 /* PostFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostFormViewController.xib; sourceTree = "<group>"; };
+		652A901C28DB70EF00501793 /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		6545162628DAF4D4004149F9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		6545162728DAF4D4004149F9 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		6571FD4F28DA0E88009B718B /* PostKlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostKlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6571FD5228DA0E88009B718B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6571FD5428DA0E88009B718B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +65,29 @@
 		6571FD5B28DA0E8A009B718B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6571FD5E28DA0E8A009B718B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6571FD6028DA0E8A009B718B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6571FD6A28DA1FBF009B718B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6571FD6B28DA1FBF009B718B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		6571FD6E28DA1FE6009B718B /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		6571FD6F28DA1FE6009B718B /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		6571FD7028DA1FE6009B718B /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		6571FD7128DA1FE6009B718B /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		6571FD7828DA203E009B718B /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		6571FD7A28DA2064009B718B /* ServiceBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceBase.swift; sourceTree = "<group>"; };
+		6571FD7C28DA207E009B718B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		6571FD7E28DA2091009B718B /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		6571FD8028DA2209009B718B /* BaseContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContract.swift; sourceTree = "<group>"; };
+		65B987C628DC2A4E00C17A0F /* StringResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
+		65B987C828DC2A7D00C17A0F /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		65F1FA8F28DB3CCF009C8AD0 /* RestApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiServices.swift; sourceTree = "<group>"; };
+		65F1FA9228DB4CEE009C8AD0 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		65F1FA9528DB57FC009C8AD0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		65F1FA9628DB57FC009C8AD0 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		65F1FA9928DB5807009C8AD0 /* DetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContract.swift; sourceTree = "<group>"; };
+		65F1FA9A28DB5807009C8AD0 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		65F1FA9B28DB5807009C8AD0 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		65F1FA9C28DB5807009C8AD0 /* DetailWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWireframe.swift; sourceTree = "<group>"; };
+		86102395C24AE94BA4830E8B /* Pods-PostKlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostKlix.release.xcconfig"; path = "Target Support Files/Pods-PostKlix/Pods-PostKlix.release.xcconfig"; sourceTree = "<group>"; };
+		9F69E4B93D2B7872E1A63621 /* Pods-PostKlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostKlix.debug.xcconfig"; path = "Target Support Files/Pods-PostKlix/Pods-PostKlix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +95,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255368D90E349950AFC06A31 /* Pods_PostKlix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A326E2B43E83095F8372C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F69E4B93D2B7872E1A63621 /* Pods-PostKlix.debug.xcconfig */,
+				86102395C24AE94BA4830E8B /* Pods-PostKlix.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		652A900D28DB661000501793 /* PostForm */ = {
+			isa = PBXGroup;
+			children = (
+				652A901B28DB6F6600501793 /* Entity */,
+				652A901628DB67A700501793 /* View */,
+				652A900E28DB67A500501793 /* PostFormContract.swift */,
+				652A900F28DB67A500501793 /* PostFormPresenter.swift */,
+				652A901028DB67A500501793 /* PostFormInteractor.swift */,
+				652A901128DB67A500501793 /* PostFormWireframe.swift */,
+			);
+			path = PostForm;
+			sourceTree = "<group>";
+		};
+		652A901628DB67A700501793 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				652A901728DB67BD00501793 /* PostFormViewController.swift */,
+				652A901828DB67BD00501793 /* PostFormViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		652A901B28DB6F6600501793 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				652A901C28DB70EF00501793 /* PostRequest.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		6545162528DAE6E4004149F9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6545162628DAF4D4004149F9 /* PostTableViewCell.swift */,
+				6545162728DAF4D4004149F9 /* PostTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		6571FD4628DA0E88009B718B = {
 			isa = PBXGroup;
 			children = (
 				6571FD5128DA0E88009B718B /* PostKlix */,
 				6571FD5028DA0E88009B718B /* Products */,
+				06A326E2B43E83095F8372C8 /* Pods */,
+				B0C374EF048393FAA25DB34F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +171,8 @@
 		6571FD5128DA0E88009B718B /* PostKlix */ = {
 			isa = PBXGroup;
 			children = (
+				6571FD7628DA1FFF009B718B /* Class */,
+				6571FD6728DA1ED4009B718B /* Module */,
 				6571FD5228DA0E88009B718B /* AppDelegate.swift */,
 				6571FD5428DA0E88009B718B /* SceneDelegate.swift */,
 				6571FD5628DA0E88009B718B /* ViewController.swift */,
@@ -67,6 +184,99 @@
 			path = PostKlix;
 			sourceTree = "<group>";
 		};
+		6571FD6728DA1ED4009B718B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				652A900D28DB661000501793 /* PostForm */,
+				65F1FA9428DB57DA009C8AD0 /* Detail */,
+				6571FD6828DA1F75009B718B /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		6571FD6828DA1F75009B718B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				65F1FA9128DB42B1009C8AD0 /* Entity */,
+				6571FD6928DA1F89009B718B /* Views */,
+				6571FD6E28DA1FE6009B718B /* HomeContract.swift */,
+				6571FD6F28DA1FE6009B718B /* HomePresenter.swift */,
+				6571FD7028DA1FE6009B718B /* HomeInteractor.swift */,
+				6571FD7128DA1FE6009B718B /* HomeWireframe.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6571FD6928DA1F89009B718B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6545162528DAE6E4004149F9 /* Cell */,
+				6571FD6A28DA1FBF009B718B /* HomeViewController.swift */,
+				6571FD6B28DA1FBF009B718B /* HomeViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6571FD7628DA1FFF009B718B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6571FD7728DA2004009B718B /* Base */,
+				65F1FA8F28DB3CCF009C8AD0 /* RestApiServices.swift */,
+				65B987C628DC2A4E00C17A0F /* StringResource.swift */,
+				65B987C828DC2A7D00C17A0F /* UITableView+Extension.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6571FD7728DA2004009B718B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6571FD7828DA203E009B718B /* Resolver.swift */,
+				6571FD7A28DA2064009B718B /* ServiceBase.swift */,
+				6571FD7C28DA207E009B718B /* Router.swift */,
+				6571FD7E28DA2091009B718B /* Module.swift */,
+				6571FD8028DA2209009B718B /* BaseContract.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		65F1FA9128DB42B1009C8AD0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				65F1FA9228DB4CEE009C8AD0 /* PostModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		65F1FA9428DB57DA009C8AD0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				65F1FAA128DB580A009C8AD0 /* View */,
+				65F1FA9928DB5807009C8AD0 /* DetailContract.swift */,
+				65F1FA9A28DB5807009C8AD0 /* DetailPresenter.swift */,
+				65F1FA9B28DB5807009C8AD0 /* DetailInteractor.swift */,
+				65F1FA9C28DB5807009C8AD0 /* DetailWireframe.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		65F1FAA128DB580A009C8AD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65F1FA9528DB57FC009C8AD0 /* DetailViewController.swift */,
+				65F1FA9628DB57FC009C8AD0 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0C374EF048393FAA25DB34F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7C1B8136BEE1B6D62EF84B /* Pods_PostKlix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6571FD6328DA0E8A009B718B /* Build configuration list for PBXNativeTarget "PostKlix" */;
 			buildPhases = (
+				0B789D5AAF7150DEEAAA77E2 /* [CP] Check Pods Manifest.lock */,
 				6571FD4B28DA0E88009B718B /* Sources */,
 				6571FD4C28DA0E88009B718B /* Frameworks */,
 				6571FD4D28DA0E88009B718B /* Resources */,
+				9EC8BE662F2DFC9EF1990A5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +338,93 @@
 			buildActionMask = 2147483647;
 			files = (
 				6571FD5F28DA0E8A009B718B /* LaunchScreen.storyboard in Resources */,
+				65F1FA9828DB57FC009C8AD0 /* DetailViewController.xib in Resources */,
+				652A901A28DB67BD00501793 /* PostFormViewController.xib in Resources */,
+				6545162928DAF4D4004149F9 /* PostTableViewCell.xib in Resources */,
 				6571FD5C28DA0E8A009B718B /* Assets.xcassets in Resources */,
 				6571FD5A28DA0E88009B718B /* Main.storyboard in Resources */,
+				6571FD6D28DA1FBF009B718B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B789D5AAF7150DEEAAA77E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostKlix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC8BE662F2DFC9EF1990A5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostKlix/Pods-PostKlix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostKlix/Pods-PostKlix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PostKlix/Pods-PostKlix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6571FD4B28DA0E88009B718B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6571FD7D28DA207E009B718B /* Router.swift in Sources */,
+				65F1FA9728DB57FC009C8AD0 /* DetailViewController.swift in Sources */,
+				65F1FA9328DB4CEE009C8AD0 /* PostModel.swift in Sources */,
+				65F1FA9028DB3CCF009C8AD0 /* RestApiServices.swift in Sources */,
 				6571FD5728DA0E88009B718B /* ViewController.swift in Sources */,
+				6571FD7528DA1FE6009B718B /* HomeWireframe.swift in Sources */,
 				6571FD5328DA0E88009B718B /* AppDelegate.swift in Sources */,
+				6571FD7928DA203E009B718B /* Resolver.swift in Sources */,
+				6571FD7F28DA2091009B718B /* Module.swift in Sources */,
+				65F1FAA028DB5807009C8AD0 /* DetailWireframe.swift in Sources */,
+				6571FD7228DA1FE6009B718B /* HomeContract.swift in Sources */,
+				65F1FA9E28DB5807009C8AD0 /* DetailPresenter.swift in Sources */,
+				65F1FA9F28DB5807009C8AD0 /* DetailInteractor.swift in Sources */,
+				652A901528DB67A500501793 /* PostFormWireframe.swift in Sources */,
+				65B987C728DC2A4E00C17A0F /* StringResource.swift in Sources */,
+				652A901328DB67A500501793 /* PostFormPresenter.swift in Sources */,
+				6545162828DAF4D4004149F9 /* PostTableViewCell.swift in Sources */,
+				652A901D28DB70EF00501793 /* PostRequest.swift in Sources */,
+				6571FD8128DA2209009B718B /* BaseContract.swift in Sources */,
+				65B987C928DC2A7D00C17A0F /* UITableView+Extension.swift in Sources */,
+				652A901428DB67A500501793 /* PostFormInteractor.swift in Sources */,
+				65F1FA9D28DB5807009C8AD0 /* DetailContract.swift in Sources */,
+				6571FD7328DA1FE6009B718B /* HomePresenter.swift in Sources */,
+				652A901928DB67BD00501793 /* PostFormViewController.swift in Sources */,
+				6571FD7B28DA2064009B718B /* ServiceBase.swift in Sources */,
 				6571FD5528DA0E88009B718B /* SceneDelegate.swift in Sources */,
+				652A901228DB67A500501793 /* PostFormContract.swift in Sources */,
+				6571FD6C28DA1FBF009B718B /* HomeViewController.swift in Sources */,
+				6571FD7428DA1FE6009B718B /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +566,7 @@
 		};
 		6571FD6428DA0E8A009B718B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F69E4B93D2B7872E1A63621 /* Pods-PostKlix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +577,6 @@
 				INFOPLIST_FILE = PostKlix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +594,7 @@
 		};
 		6571FD6528DA0E8A009B718B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86102395C24AE94BA4830E8B /* Pods-PostKlix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +605,6 @@
 				INFOPLIST_FILE = PostKlix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
