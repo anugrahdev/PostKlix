@@ -45,7 +45,7 @@ class PostFormWireframe: PostFormWireframeProtocol {
     func showSubmitAlert() {
         let dialogMessage = UIAlertController(
             title: "",
-            message: "You are successfully submit content",
+            message: "You are successfully submit post",
             preferredStyle: .alert)
          
         let ok = UIAlertAction(title: "Ok", style: .default, handler: { (action) -> Void in
@@ -59,7 +59,7 @@ class PostFormWireframe: PostFormWireframeProtocol {
     func showEditAlert() {
         let dialogMessage = UIAlertController(
             title: "",
-            message: "You are successfully edit content",
+            message: "You are successfully edit post",
             preferredStyle: .alert)
          
         let ok = UIAlertAction(title: "Ok", style: .default, handler: { (action) -> Void in
