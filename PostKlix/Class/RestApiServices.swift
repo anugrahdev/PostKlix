@@ -30,35 +30,9 @@ class RestApiServices {
         
     }
     
-    func post<T: Codable>(url: String, params: [String:String], success: @escaping (T) -> Void, failure: @escaping (NSError) -> Void) {
+    func startPostRequest<T: Codable>(url: String, params: [String:String], method: HTTPMethod, success: @escaping (T) -> Void, failure: @escaping (NSError) -> Void) {
         
-        AF.request(url, method: .post, parameters: params, encoder: JSONParameterEncoder.default).responseDecodable(of: T.self){ response in
-            debugPrint(response)
-        switch response.result {
-        case .success(let data):
-            success(data)
-        case .failure(let error):
-            failure(error as NSError)
-        }
-        }
-    }
-    
-    func delete<T: Codable>(url: String, params: [String:String], success: @escaping (T) -> Void, failure: @escaping (NSError) -> Void) {
-        
-        AF.request(url, method: .delete, parameters: params, encoder: JSONParameterEncoder.default).responseDecodable(of: T.self){ response in
-            debugPrint(response)
-        switch response.result {
-        case .success(let data):
-            success(data)
-        case .failure(let error):
-            failure(error as NSError)
-        }
-        }
-    }
-    
-    func put<T: Codable>(url: String, params: [String:String], success: @escaping (T) -> Void, failure: @escaping (NSError) -> Void) {
-        
-        AF.request(url, method: .put, parameters: params, encoder: JSONParameterEncoder.default).responseDecodable(of: T.self){ response in
+        AF.request(url, method: method, parameters: params, encoder: JSONParameterEncoder.default).responseDecodable(of: T.self){ response in
             debugPrint(response)
         switch response.result {
         case .success(let data):

@@ -30,12 +30,12 @@ class PostFormInteractor: PostFormInteractorProtocol {
                     "content": content
                 ]
     
-        RestApiServices.shared.post(url: url, params: params) { [weak self] (postResult: PostModel) in
+        RestApiServices.shared.startPostRequest(url: url, params: params, method: .post) { [weak self] (postResult: PostModel) in
             self?.delegate?.submitPostDidSuccess()
         } failure: { [weak self] error in
             self?.delegate?.serviceRequestDidFail(error)
         }
-
+        
     }
     
     func editPost(title: String, content: String, id: Int) {
@@ -45,7 +45,7 @@ class PostFormInteractor: PostFormInteractorProtocol {
                     "content": content
                 ]
     
-        RestApiServices.shared.put(url: url, params: params) { [weak self] (postResult: PostModel) in
+        RestApiServices.shared.startPostRequest(url: url, params: params, method: .put) { [weak self] (postResult: PostModel) in
             self?.delegate?.editPostDidSuccess(postList: postResult)
         } failure: { [weak self] error in
             self?.delegate?.serviceRequestDidFail(error)

@@ -22,6 +22,7 @@ class HomePresenter: HomePresenterProtocol {
     }
     
     func fetchPost() {
+        wireframe.setLoadingIndicator(isHidden: false)
         interactor.getPostList()
     }
     
@@ -40,6 +41,7 @@ class HomePresenter: HomePresenterProtocol {
 
 extension HomePresenter: HomeInteractorDelegate {
     func getPostListDidSuccess(postList: [PostModel]) {
+        wireframe.setLoadingIndicator(isHidden: true)
         allPosts = postList
         DispatchQueue.main.async { [weak self] in
             self?.view?.reloadData()

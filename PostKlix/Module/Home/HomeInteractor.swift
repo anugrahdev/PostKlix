@@ -33,7 +33,7 @@ class HomeInteractor: HomeInteractorProtocol {
             "content": content
         ]
     
-        RestApiServices.shared.delete(url: url, params: params) { [weak self] (postResult: PostModel) in
+        RestApiServices.shared.startPostRequest(url: url, params: params, method: .delete) { [weak self] (postResult: PostModel) in
             self?.delegate?.deletePostDidSuccess(postList: postResult)
         } failure: { [weak self] error in
             self?.delegate?.serviceRequestDidFail(error)
